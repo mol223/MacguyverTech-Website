@@ -1,0 +1,58 @@
+/* Navigation Styling */
+
+#navigationMenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.navigation-item {
+    float: right;
+    border-radius: 5px;
+    /*background-color: mediumpurple*/
+}
+
+.navigation-item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation-item a:hover {
+    background-color: gray; 
+}
+
+/* Header Styling */
+
+.header-container, .description-container {
+    text-align: center;
+}
+
+#projectTitle {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#projectDescription {
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightgray
+}
+
+
+
+/* Body Styling */
+
+body {
+    background-image: url("../Images/IndexWallpaper.jpg");
+}
+
+.nft-container {
+    padding-top: 20px;
+    text-align: center;
+}
