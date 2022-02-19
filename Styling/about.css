@@ -37,29 +37,18 @@
 
 /* Header Styling */
 
-.header-container, .description-container {
-    background-color: dimgray;
+.header-container {
     text-align: center;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
-#projectTitle {
-    font-family: Arial, Helvetica, sans-serif;
+.header-container h1, h2, h4 {
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    display: inline-block;
-}
-
-
-#projectDescription {
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
     padding-left: 10%;
     padding-right: 10%;
 }
-
-
 
 /* Body Styling */
 
@@ -71,12 +60,7 @@ body {
     /*background-image: url("../Images/IndexWallpaper.jpg");*/
 }
 
-.container {
-    margin: auto;
-    background-color: dimgray;
-}
-
-.nft-container {
+#backgroundContainer {
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
@@ -84,13 +68,20 @@ body {
     display: inline-block;
 }
 
-#nftIcons {
+#backgroundText h1, h2, h4 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#backgroundImage {
     border-radius: 10px;
 }
 
-#nftDesc {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+#backgroundImageDiv {
+    padding-left: 5%;
 }
 
 /* Footer Styling */
