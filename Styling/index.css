@@ -38,7 +38,7 @@
 /* Header Styling */
 
 .header-container, .description-container {
-    background-color: dimgray;
+    /*background-color: dimgray;*/
     text-align: center;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -64,23 +64,23 @@
 /* Body Styling */
 
 body {
-    background-color: dimgray;
+    /*background-color: dimgray;*/
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /*background-image: url("../Images/IndexWallpaper.jpg");*/
+    background-image: url("../Images/BackgroundWallpaper.jpg");
 }
 
 .container {
     margin: auto;
-    background-color: dimgray;
+    /*background-color: dimgray;*/
 }
 
 .nft-container {
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
-    background-color: dimgray;
+    /*background-color: dimgray;*/
     display: inline-block;
 }
 
@@ -91,6 +91,9 @@ body {
 #nftDesc {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: slategray;
 }
 
 /* Footer Styling */
@@ -135,7 +138,7 @@ body {
 }
 
 .socialmedia-item #twitterLink {
-    font-size: 30px
+    font-size: 30px;
 }
 
 #youtubeLink a:hover i {
