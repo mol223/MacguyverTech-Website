@@ -1,38 +1,24 @@
 /* Navigation Styling */
 
-#navigationMenu {
-    list-style-type: none;
-    margin: 0;
-    padding-top: 10px;
-    overflow: hidden;
-    background-color: darkgray;
+.navbar-brand {
+    padding-left: 3%;
 }
 
-.navigation-item {
-    float: right;
-    border-radius: 5px;
-    /*background-color: mediumpurple*/
-}
-
-.navigation-item a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+.nav-link {
+    color: gray;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
     font-weight: bold;
 }
 
-.navigation-item a:hover {
-    background-color: darkorange;
-    border-radius: 10px;
-}
-
-#macguyverTechLogo {
-    object-fit: contain;
-    float: left;
-    padding-top: 5px;
+.navContainer {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+    border-style: solid;
+    border-color: gray;
+    border-radius: 32px;
+    border-bottom-width: 5px;
+    border-top-width: 2px;
 }
 
 /* Header Styling */
@@ -45,7 +31,7 @@
 }
 
 #projectTitle {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
     color: white;
     font-weight: bold;
     display: inline-block;
@@ -53,8 +39,9 @@
 
 
 #projectDescription {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
     color: white;
+    font-weight: bold;
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -89,70 +76,11 @@ body {
 }
 
 #nftDesc {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
     font-weight: bold;
     padding-left: 5%;
     padding-right: 5%;
-    color: slategray;
-}
-
-/* Footer Styling */
-
-.footer-container {
-    margin-top: auto;
-}
-
-#footerMenu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: darkgray;
-}
-
-.copyright-desc {
-    float: left;
-    border-radius: 5px;
-}
-
-.copyright-desc a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-}
-
-.socialmedia-item {
-    float: right;
-    border-radius: 5px;
-    padding-right: 1%;
-    padding-top: 10px;
-    /*background-color: mediumpurple*/
-}
-
-.socialmedia-item i {
-    color: white;
-}
-
-.socialmedia-item #twitterLink {
-    font-size: 30px;
-}
-
-#youtubeLink a:hover i {
-    color: red;
-}
-
-#discordLink a:hover i {
-    color: mediumpurple;
-}
-
-#twitterLink a:hover i {
-    color: deepskyblue;
-}
-
-#linkedInLink a:hover i {
-    color: skyblue;
+    padding-top: 15%;
+    color: darkorange;
+    vertical-align: middle;
 }

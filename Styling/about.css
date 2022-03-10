@@ -14,17 +14,26 @@
     /*background-color: mediumpurple*/
 }
 
-.navigation-item a {
+.navigation-item a, .navigation-item button {
     display: block;
     color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
     font-weight: bold;
 }
 
-.navigation-item a:hover {
+.navigation-item button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+.navigation-item a:hover, .navigation-item button:hover {
     background-color: darkorange;
     border-radius: 10px;
 }
@@ -44,7 +53,7 @@
 
 .header-container h1, h2, h4 {
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
     font-weight: bold;
     padding-left: 10%;
     padding-right: 10%;
@@ -70,7 +79,7 @@ body {
 
 #backgroundText h1, h2, h4 {
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
     font-weight: bold;
     padding-left: 10%;
     padding-right: 10%;
@@ -82,65 +91,4 @@ body {
 
 #backgroundImageDiv {
     padding-left: 5%;
-}
-
-/* Footer Styling */
-
-.footer-container {
-    margin-top: auto;
-}
-
-#footerMenu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: darkgray;
-}
-
-.copyright-desc {
-    float: left;
-    border-radius: 5px;
-}
-
-.copyright-desc a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-}
-
-.socialmedia-item {
-    float: right;
-    border-radius: 5px;
-    padding-right: 1%;
-    padding-top: 10px;
-    /*background-color: mediumpurple*/
-}
-
-.socialmedia-item i {
-    color: white;
-}
-
-.socialmedia-item #twitterLink {
-    font-size: 30px
-}
-
-#youtubeLink a:hover i {
-    color: red;
-}
-
-#discordLink a:hover i {
-    color: mediumpurple;
-}
-
-#twitterLink a:hover i {
-    color: deepskyblue;
-}
-
-#linkedInLink a:hover i {
-    color: skyblue;
 }

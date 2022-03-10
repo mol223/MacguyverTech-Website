@@ -1,0 +1,35 @@
+/* Body Styling */
+
+.article-container, .date-container, .image-container, .body-container {
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    display: block;
+}
+
+#title {
+    color: white;
+}
+
+#date {
+    color: darkorange;
+}
+
+#image {
+    border-radius: 10px;
+    max-width: 20%;
+    height: auto;
+}
+
+#article {
+    padding-top: 20px;
+    color: white;
+}
+
+body {
+    /*background-color: dimgray;*/
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../Images/BackgroundWallpaper.jpg");
+}

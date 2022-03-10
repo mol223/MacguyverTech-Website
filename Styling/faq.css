@@ -1,40 +1,3 @@
-/* Navigation Styling */
-
-#navigationMenu {
-    list-style-type: none;
-    margin: 0;
-    padding-top: 10px;
-    overflow: hidden;
-    background-color: darkgray;
-}
-
-.navigation-item {
-    float: right;
-    border-radius: 5px;
-    /*background-color: mediumpurple*/
-}
-
-.navigation-item a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-}
-
-.navigation-item a:hover {
-    background-color: darkorange;
-    border-radius: 10px;
-}
-
-#macguyverTechLogo {
-    object-fit: contain;
-    float: left;
-    padding-top: 5px;
-}
-
 /* Header Styling */
 
 .header-container {
@@ -44,7 +7,7 @@
 
 .header-container h1 {
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
     font-weight: bold;
 }
 
@@ -64,66 +27,10 @@ body {
 }
 
 p {
-    color: slategray;
+    color: darkorange;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
-/* Footer Styling */
-
-.footer-container {
-    margin-top: auto;
-}
-
-#footerMenu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: darkgray;
-}
-
-.copyright-desc {
-    float: left;
-    border-radius: 5px;
-}
-
-.copyright-desc a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-}
-
-.socialmedia-item {
-    float: right;
-    border-radius: 5px;
-    padding-right: 1%;
-    padding-top: 10px;
-    /*background-color: mediumpurple*/
-}
-
-.socialmedia-item i {
-    color: white;
-}
-
-.socialmedia-item #twitterLink {
-    font-size: 30px
-}
-
-#youtubeLink a:hover i {
-    color: red;
-}
-
-#discordLink a:hover i {
-    color: mediumpurple;
-}
-
-#twitterLink a:hover i {
-    color: deepskyblue;
-}
-
-#linkedInLink a:hover i {
-    color: skyblue;
+h6 {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
 }

@@ -9,6 +9,7 @@ var rotationCount = 0;
 
 function updateNFTImage() {
     nftPlaceHolderImg.src = nftPlaceHolderImages[rotationCount];
+    nftPlaceHolderImg.style.borderRadius = "10px";
     if(rotationCount < nftPlaceHolderImages.length - 1) {
         rotationCount++;
     } else {
